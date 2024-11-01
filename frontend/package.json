@@ -1,0 +1,59 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "tsc --noEmit && eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "test:coverage": "vitest --coverage",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui-port=8008 --ui-host=0.0.0.0",
+    "tests": "npm run test:unit && npm run test:e2e"
+  },
+  "dependencies": {
+    "bulma": "^0.9.4",
+    "bulma-switch": "^2.0.4",
+    "i18next": "^23.11.1",
+    "i18next-browser-languagedetector": "^7.2.1",
+    "i18next-http-backend": "^2.5.0",
+    "localstorage": "^1.0.1",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-calendar": "^4.8.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^14.1.0",
+    "react-icons": "^5.0.1",
+    "react-minimal-pie-chart": "^8.4.0",
+    "react-router-dom": ">=6.22.2",
+    "react-switch": "^7.0.0",
+    "reactjs-popup": "^2.0.6"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@testing-library/react": "^14.2.2",
+    "@types/lodash": "^4.17.4",
+    "@types/node": "^20.12.6",
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.4.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "eslint-plugin-vitest": "^0.4.2-beta.3",
+    "jsdom": "^24.0.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.0",
+    "vitest": "^1.4.0"
+  }
+}

@@ -1,0 +1,74 @@
+.create-project {
+    height: 100%;
+    flex-wrap: wrap;
+    overflow-x: auto;
+}
+
+.create-project-topbar {
+    position: fixed;
+    z-index: 10;
+    background-color: white;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.create-project-content {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.teacher-main {
+    width: calc(100vw - var(--sidebar-width));
+    overflow-y: auto;
+}
+
+.teacher-left {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.docker-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .docker-row {
+        .docker-file-present-tag {
+            margin-right: 5px;
+        }
+        .docker-file-present-true {
+            color: green;
+        }
+        .docker-file-present-false {
+            color: red;
+        }
+    }
+    .docker-new-file {
+        
+    }
+}
+.download-button {
+    margin-left: 10px;
+    border: solid !important;
+    border-width: 1px !important;
+    border-color: hsla(0, 0%, 0%, 0.15) !important;
+}
+
+.teamwork {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.error-row {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.error-fail {
+    font-weight: bold;
+    color: black;
+}
+
+.error-success {
+    color: rgb(201, 255, 201);
+}

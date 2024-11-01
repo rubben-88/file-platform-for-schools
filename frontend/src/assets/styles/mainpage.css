@@ -1,0 +1,64 @@
+:root {
+    --sidebar-width: 80px;
+    --primary-dark: #5f69cc;
+    --primary-light: #b2b1ff;
+    --primary-light-text: white;
+    --primary-dark-text: black;
+    overflow-y: auto !important
+}
+
+.login-screen {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main-header {
+    width: 100vw;
+    height: var(--sidebar-width);
+    background-color: var(--primary-dark);
+    overflow: hidden;
+    color: var(--primary-light-text);
+    font-size: 30px;
+}
+
+.main-nav {
+    height: 100%;
+}
+
+.logo-div {
+    background-color: #5f63c8;
+    height: 100%;
+    width: var(--sidebar-width);
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+.main-content {
+    width: 100vw;
+    height: calc(100vh - var(--sidebar-width));
+}
+
+.side-bar {
+    width: var(--sidebar-width);
+    background-color: var(--primary-dark);
+
+    li {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            transform: scale(1.5);
+            font-size: 1em;
+            color: var(--primary-light-text);
+        }
+    }
+}
+
+.icon {
+    height: 50%;
+}

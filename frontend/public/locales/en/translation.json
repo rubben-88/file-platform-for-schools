@@ -1,0 +1,286 @@
+{
+    "docker": {
+        "file-present": "file present:",
+        "false": "false",
+        "true": "true"
+    },
+    "login": {
+        "title": "Welcome to Delphi!",
+        "text": "To login, please click the button below, you'll get redirected to the login page of UGent CAS.",
+        "button": "Log in"
+    },
+    "login_error": {
+        "title": "There was an error logging in!",
+        "text": "To retry, please press the button below.",
+        "button": "Retry"
+    },
+    "unauthorized": {
+        "title": "Access to this page is restricted!",
+        "text": "Please check with an admin if you believe this is a mistake.",
+        "back": "Go back to the homepage"
+    },
+    "home_student": {
+        "title": "Home",
+        "deadlines": "Upcoming deadlines",
+        "card": {
+            "tag": {
+                "course": "course:",
+                "status": "status:"
+            },
+            "status": {
+                "success": "Success",
+                "failed": "Failed"
+            }
+        }
+    },
+    "home_teacher": {
+        "title": "Home",
+        "card": {
+            "tag": {
+                "course": "course:"
+            }
+        }
+    },
+    "create_course": {
+        "title": "Create course",
+        "name": {
+            "tag": "Course name:",
+            "placeholder": "Enter a name"
+        },
+        "confirm": "Confirm"
+    },
+    "create_project": {
+        "title": "Create project",
+        "success": "Your project has been successfully saved.",
+        "failed": "Something went wrong while saving your project. Please try again.",
+        "archived": "Archived:",
+        "visible": "Visible:",
+        "amount_of_students": "Amount of students:",
+        "amount_of_groups": "Amount of groups:",
+        "individual": "Individual project:",
+        "name": {
+            "tag": "Project name:",
+            "placeholder": "Enter a name"
+        },
+        "course": {
+            "tag": "Course:"
+        },
+        "deadline": {
+            "tag": "Deadline:",
+            "locale": "en"
+        },
+        "description": {
+            "tag": "Description:",
+            "placeholder": "Optional description of the project"
+        },
+        "docker_file": {
+            "tag": "Docker file",
+            "choose_button": "Choose new file"
+        },
+        "submission_files": {
+            "tag": "Submission files:"
+        },
+        "teamwork": {
+            "tag": "Teamwork:",
+            "changes": "Allow mix-ups",
+            "groups": {
+                "tag": "Groups (choose one of the below):",
+                "random": "random",
+                "own_choice": "students choose themselves"
+            }
+        },
+        "save_button": "Save",
+        "error_title": "Oops, something went wrong!",
+        "error_text": "You don't have any courses yet, please create a course first in order to create a project"
+    },
+    "submission_files": {
+        "root_switch": {
+            "single_file": "single file",
+            "zip_file": "zip file"
+        },
+        "constraints": {
+            "global": "Global constraints:",
+            "local": "Local constraints:"
+        },
+        "single_file": {
+            "name": "name:"
+        },
+        "menu": {
+            "remove": "remove",
+            "file": "to 'file'",
+            "directory": "to 'directory'",
+            "zip": "to 'zip'",
+            "not_present": "to 'not present'",
+            "extension_not_present": "to 'extension not present'",
+            "extension_only_present": "to 'extension only present'",
+            "info-not_present": "this name may not appear in the zip/folder in which this constraint is located",
+            "info-extension_not_present": "files with this extension may not appear in the zip/folder in which this constraint is located",
+            "info-extension_only_present": "in the zip/folder in which this constraint is located, only files with this extension are allowed"
+        },
+        "warning_change_root": {
+            "type_switch": "All current file-specifications will be removed. Are you sure you want to change the type of the root?"
+        },
+        "warning": {
+            "remove": "Are you sure?"
+        },
+        "information": {
+            "title": "Information",
+            "constraints": "You can edit the value of a contraint by clicking on it. By hovering over a constraint, more operations will appear.",
+            "global-local": "Global constraints apply to all files in the submission. Local constraints only apply in the zip/folder in which they are located.",
+            "extensions": "Please begin extension names with a dot.",
+            "color_codes": {
+                "title": "color codes:",
+                "file": "file",
+                "directory": "directory",
+                "zip": "zip",
+                "not_present": "not present",
+                "extension_not_present": "extension not present",
+                "extension_only_present": "extension only present"
+            }
+        }
+    },
+    "warneable": {
+        "title": "Warning!",
+        "cancel": "Cancel",
+        "proceed": "Proceed"
+    },
+    "projects": {
+        "title": "Projects",
+        "search_placeholder": "search a project...",
+        "active": "active",
+        "archived": "archived",
+        "hidden": "hidden",
+        "new_project": "new project",
+        "success": "Success",
+        "failed": "Failed",
+        "pending": "Pending"
+    },
+    "table": {
+        "project": "project",
+        "course": "course",
+        "deadline": "deadline",
+        "status": "status",
+        "number_of_submissions": "number of submissions",
+        "first_upcoming_deadline": "next deadline",
+        "name": "name",
+        "email": "email",
+        "no_data_yet": "No data.",
+        "number_of_projects": "number of projects",
+        "remove": "remove",
+        "add": "add"
+    },
+    "project": {
+        "name": "Name",
+        "course": "Course",
+        "deadline": "Deadline",
+        "status": "Status",
+        "description": "Description",
+        "submission_files": "Submission must contain",
+        "groupmembers": {
+            "tag": "Groupmembers",
+            "name": "Name",
+            "email": "Email",
+            "latest_submission": "Latest submission",
+            "amount_of_members": "Amount of members per group:"
+        },
+        "submission": {
+            "tag": "Submission",
+            "choose_file": "Choose a file"
+        },
+        "confirm": "Confirm",
+        "save": "Save",
+        "submit": "Submit",
+        "submitted": "The submission has been successful",
+        "failed-submission": "The submission failed with error:",
+        "download-current": "Download latest submission",
+        "failed": "Failed",
+        "success": "Success",
+        "not_in_group": "You don't have a group yet, please sign yourself up in order to start this project."
+    },
+    "project_error": {
+        "title": "Oops, something went wrong!",
+        "text": "The project you are trying to view does not exist or you do not have access to this project."
+    },
+    "statistics": {
+        "tag": "Statistics",
+        "submissions": "Submissions",
+        "nothing_yet": "Nothing yet",
+        "failed": "Failed",
+        "success": "Success",
+        "no_submissions": "No submissions yet"
+    },
+    "courses": {
+        "title": "Courses",
+        "search_placeholder": "search a course...",
+        "active": "active",
+        "archived": "archived",
+        "new_course": "new course",
+        "new_project": "new project"
+    },
+    "course": {
+        "teachers": "teachers",
+        "projects": "projects",
+        "students": "students",
+        "new_project": "new project",
+        "error": "there was an error loading the course"
+    },
+    "course_error": {
+        "title": "Oops, something went wrong!",
+        "text": "The course you are trying to view does not exist or you do not have access to this course."
+    },
+    "admin": {
+        "title": "Admin operations",
+        "teacher_rights": {
+            "tag": "Give teacher-rights:",
+            "sub": "(choose between all non-teachers)"
+        },
+        "admin_rights": {
+            "tag": "Give admin-rights:",
+            "sub": "(choose between all persons)"
+        },
+        "search_placeholder": "search a person"
+    },
+    "settings": {
+        "english": "English",
+        "dutch": "Dutch",
+        "current_language": "EN",
+        "settings": "Settings",
+        "logout": "Logout:",
+        "workstation": "Select workstation:",
+        "student": "student",
+        "teacher": "teacher",
+        "admin": "admin"
+    },
+    "join_course": {
+        "message": "Do you want to join the course:",
+        "join": "join course",
+        "return_home": "return to the homepage"
+    },
+    "searchbar": {
+        "find_teacher": "search teacher"
+    },
+    "popups": {
+        "teachers": "teachers",
+        "confirmation": "confirmation",
+        "confirm_add": "Are you sure this person should become a teacher of this course?",
+        "confirm_delete": "Are you sure you want to delete the rights of teacher for this person?",
+        "yes": "yes",
+        "no": "no",
+        "share": "share link to the course",
+        "share_warning": "Everyone who follows this link that is logged into the system will be added to the course. Share this link only with people who you want to add to this course.",
+        "share_link": "share link",
+        "copied": "copied",
+        "archive": "archive course",
+        "archive_warning": "For every student and teacher of this course, it will be archived. Creating new projects will no longer be possible, and active projects will be closed. Are you sure you want to archive this course?",
+        "leave_course": "leave course",
+        "leave_last_teacher": "You are the last teacher, so the course will be archived for all students.",
+        "leave_question": "Are you sure that you want to leave this course?"
+    },
+    "empty-home": {
+        "empty-cards": "No active projects at this moment.",
+        "empty-deadline": "No deadlines at the moment."
+    },
+    "download": {
+        "download_all": "Download all submissions"
+    }
+}
